@@ -39,23 +39,23 @@ Using Java command line
 
 ### Show the city list and the satellite cities 
 
-[http://localhost:4242/](http://localhost:4242/) 
+[http://localhost:8080/](http://localhost:8080/) 
 
 
 ### Play with it
 
 Example `a` and `e` _are not_ connected:
 
-[http://localhost:4242/connected?origin=a&destination=e](http://localhost:4242/connected?origin=a&destination=e) (result **false**)
+[http://localhost:8080/connected?origin=a&destination=e](http://localhost:8080/connected?origin=a&destination=e) (result **no**)
 
 Example `f` and `k` _are_ connected:
 
-[http://localhost:4242/connected?origin=f&destination=k](http://localhost:4242/connected?origin=f&destination=k) (result **true**)
+[http://localhost:8080/connected?origin=f&destination=k](http://localhost:8080/connected?origin=f&destination=k) (result **yes**)
 
  
 Example `d` and `k` _are not_ connected
 
-[http://localhost:4242/connected?origin=d&destination=k](http://localhost:4242/connected?origin=a&destination=e) (result **false**)
+[http://localhost:8080/connected?origin=d&destination=k](http://localhost:8080/connected?origin=a&destination=e) (result **no**)
 
 ### Provide your own roadmap file
 
@@ -70,6 +70,6 @@ Using Java command line
 ```
 ### Swagger
 
-[http://localhost:4242/swagger-ui.html](http://localhost:4242/swagger-ui.html)
+[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
    
 
